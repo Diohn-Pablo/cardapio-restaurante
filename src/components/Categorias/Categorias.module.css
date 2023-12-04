@@ -1,0 +1,31 @@
+
+
+.container_botoes {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1024px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container_botoes button {
+    display: flex;
+    flex: 1 1 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container_botoes button img {
+    height: 20px;
+    width: auto;
+}
+
+.acenderBtn {
+    background-color: goldenrod;
+}
